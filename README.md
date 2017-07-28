@@ -28,3 +28,4 @@ docker daemon启动，使用 `/run/flannel/subnet.env`中的变量，作为启�
 容器之后的启动，就是由docker daemon负责了。因为配置了bip，因此创建出来的容器会使用该网段的ip，并赋给容器。即容器其实还是按照bridge的模式，进行创建的
 
 ## Kubernets
+## 搭建环境步骤
