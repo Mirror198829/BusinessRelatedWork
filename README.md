@@ -40,3 +40,13 @@
 例如 `nohup npm run dev &`,随后服务正常启动，显示`[~]$ appending output to nohup.out` ,不能直接关闭xshell，退出程序正确方法：按任意键，输入`exit`，随后关闭xshell，服务会在后台一直启动中<br/>  
 参考文档：https://www.cnblogs.com/wangyanhua95/p/7954019.html
 
+## 杀进程
+``` javascript
+\\查进程
+ps -ef | grep npm   \\查找npm的进程
+
+//会返回类似 501 27562 25664   0  8:35pm ttys001    0:00.00 grep npm
+\\ 然后执行命令:
+kill 501
+```
+
