@@ -1,10 +1,20 @@
 # LINUX 常用命令
 ## 如何上传本地文件到虚拟机（SecureCRT）
+#### 上传一个文件步骤
 1. `alt + p` 开始文件上传
 2. `lcd E:\code\pass-platform\src\page\console\systemManagement` 进入本地目录
 3. `cd /root/installpackages/paas/src/page/console/systemManagement ` 进入虚拟机
 4. `put workerGroupManagement.vue` 上传文件
-
+### 上传所有代码步骤
+``` javascript
+alt + p  //开始文件上传
+lcd E:\code\pass-platform  //进入本地目录 SFTP-172.32.149.153
+cd  /root/installpackages/paas   //进入虚拟目录
+put src.zip  //上传文件
+ll  回到原本cmd
+cd /root/installpackages/paas
+unzip src.zip -d .    //解压代码
+```
 ## 系统
 ### 切换root用户
 `sudo -i`
