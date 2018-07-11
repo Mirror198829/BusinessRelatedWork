@@ -2,7 +2,7 @@
 ## 如何上传本地文件到虚拟机（SecureCRT）
 #### 上传一个文件步骤
 1. `alt + p` 开始文件上传
- ![image](https://mirror198829.github.io/static/cloud/github/secreCrt.png)
+ ![image](https://mirror198829.github.io/static/github/secreCrt.png)
 2. `lcd E:\code\pass-platform\src\page\console\systemManagement` 进入本地目录
 3. `cd /root/installpackages/paas/src/page/console/systemManagement ` 进入虚拟机
 4. `put workerGroupManagement.vue` 上传文件
