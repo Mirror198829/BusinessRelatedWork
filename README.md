@@ -5,7 +5,7 @@
  ![image](https://mirror198829.github.io/static/github/secreCrt.png)
 2. `lcd E:\code\pass-platform\src\page\console\systemManagement` 进入本地目录
 3. `cd /root/installpackages/paas/src/page/console/systemManagement ` 进入虚拟机
-4. `put workerGroupManagement.vue` 上传文件
+4. `put workerGroupManagement.vue` 上传文件 <br/>
 如果上传整个目录下文件 `put systemManagement/*`
 ### 上传所有代码步骤
 ``` javascript
